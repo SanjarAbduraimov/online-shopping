@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopzone</title>
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="assets/icon/css/all.min.css">
+    <!-- costume css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <h1 class="h2 text-center">Online Shop</h1>
+
+        <!-- Boshqaruvchi buyruqlar -->
+
+        <div class="row mb-3">
+            <div class="col">
+                <h2 class="h4">Boshqaruvchi buyruqlar</h2>
+                <form class="form-inline">
+                    <input class="form-control mr-2" id="money-in-wallet-input" type="number" min="0"
+                        placeholder="Money in Wallet">
+                    <button id="save-wallet-money-btn" class="btn btn-primary mr-4">Save</button>
+                    <button id="buy-product-btn" class="btn btn-success">Buy</button>
+                </form>
+                <p>Money in wallet: <b id="money-in-wallet-input-text">0</b> UZS</p>
+            </div>
+            <div class="col">
+                <h4 class="toPay">Money to pay: <span id="money-to-pay">0</span> so'm</h4>
+            </div>
+        </div>
+
+        <!-- Products -->
+        <div class="row" id="productList">
+
+        </div>
+        <!-- end of Products -->
+    </div>
+
+
+
+
+    <!-- <script src="js/JQuery.min.js"></script> -->
+    <!-- <script src="assets/bootstrap/js/jquery.min.js"></script> -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>

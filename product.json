@@ -1,0 +1,34 @@
+{
+    "products": [
+        {
+            "title": "snikers",
+            "price": "5000",
+            "img": "./assets/img/black.jpg"
+        },
+        {
+            "title": "candy",
+            "price": "10000",
+            "img": "./assets/img/black.jpg"
+        },
+        {
+            "title": "choko",
+            "price": "2000",
+            "img": "./assets/img/black.jpg"
+        },
+        {
+            "title": "kinder",
+            "price": "4000",
+            "img": "./assets/img/black.jpg"
+        },
+        {
+            "title": "kiss",
+            "price": "6000",
+            "img": "./assets/img/black.jpg"
+        },
+        {
+            "title": "snikers",
+            "price": "5000",
+            "img": "./assets/img/black.jpg"
+        }
+    ]
+}

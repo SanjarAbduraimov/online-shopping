@@ -1,0 +1,23 @@
+* {
+    -webkit-user-select: none;
+}
+
+.product {
+    cursor: pointer;
+    border: 3px solid transparent;
+    box-shadow: 0 4px 11px 1px #aaa
+}
+
+.product.selected {
+    border-color: green;
+    color: red;
+}
+
+.toPay {
+    position: fixed;
+    top: 0;
+    background: #fff;
+    right: 0;
+    padding: 10px;
+    z-index: 10;
+}
